@@ -42,7 +42,7 @@ pipeline {
 
             steps {
 
-                sh 'docker run --rm department-service'
+                sh 'docker run --rm tapanjeet/department-service'
 
              }
 
