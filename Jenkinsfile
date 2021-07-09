@@ -38,15 +38,7 @@ pipeline {
            }
         }
 
-       stage ('run'){
-
-            steps {
-
-                sh 'docker run --rm tapanjeet/department-service'
-
-             }
-
-        }
+      
 
         stage ('push image'){
 
