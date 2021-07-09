@@ -42,7 +42,7 @@ pipeline {
 
             steps {
 
-                sh 'docker run --rm hello_world'
+                sh 'docker run --rm department-service'
 
              }
 
